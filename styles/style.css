@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Roboto Slab Bold;
+    src: url(/fonts/static/RobotoSlab-Bold.ttf);
+    font-family: Roboto Slab Light;
+    src: url(/fonts/static/RobotoSlab-Light.ttf)
+}
+
 header {
     background-image: url(/images/browser.svg);
     width: 80rem;
@@ -34,12 +41,100 @@ header {
     width: 115px;
     height: 38px;
     border-radius: 100px;
-    border-color: rgba(255, 255, 255, 0.319);
+    border-color: aliceblue;
     grid-area: cart;
     display: inline-grid;
-    margin-right: 1rem;
+    margin-left: 5rem;
 }
 
 .border {
     margin-bottom: 1rem;
+}
+
+.txt_img {
+    grid-template-areas: "h1 bc"
+    "article bc"
+    "button bc"
+    "nav bc";
+    grid-template-columns: 40rem 20rem;
+    grid-template-rows: 13rem 6rem 10rem 10rem;
+    display: grid;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-right: 3rem;
+    grid-area: h1;
+    display: grid;
+    justify-content: center;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+    color:rgba(0, 0, 0, 1);
+    letter-spacing: 0.1rem;
+    font-family: Roboto Slab Bold;
+}
+
+.background {
+    grid-area: bc;
+    display: grid;
+}
+
+article {
+    color: black;
+    margin-top: 3rem;
+    font-weight: 300;
+    grid-area: article;
+    display: grid;
+    justify-content: center;
+    font-family: Roboto Slab Light;
+}
+
+.nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: "op wb del help";
+    margin-top: 7rem;
+}
+
+.buy {
+    background-image: url(/images/button-buy.svg);
+    width: 270px;
+    height: 84px;
+    margin-top: 3rem;
+    border-radius: 100px;
+    border-color: aliceblue;
+    grid-area: button;
+    display: grid;
+    justify-self: center;
+    margin-right: 7rem;
+}
+
+a {
+    color: rgba(82, 34, 208, 1);
+    font-family: Roboto Slab Light;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    grid-area: a;
+}
+
+.op {
+    grid-area: op;
+    margin-left: 8rem;
+}
+
+.wb {
+    grid-area: wb;
+}
+
+.del {
+    grid-area: del;
+}
+
+.help {
+    grid-area: help;
 }
