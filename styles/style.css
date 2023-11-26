@@ -61,7 +61,7 @@ header {
     display: grid;
 }
 
-h1 {
+.VRww {
     margin-top: 2rem;
     margin-right: 3rem;
     grid-area: h1;
@@ -81,7 +81,7 @@ text-align: left;
     display: grid;
 }
 
-article {
+.art1 {
     color: black;
     margin-top: 3rem;
     font-weight: 300;
@@ -111,7 +111,7 @@ article {
     margin-right: 7rem;
 }
 
-a {
+.op, .wb, .del, .help {
     color: rgba(82, 34, 208, 1);
     font-family: Roboto Slab Light;
     font-size: 20px;
@@ -137,4 +137,162 @@ a {
 
 .help {
     grid-area: help;
+}
+
+/*page 2*/
+
+@font-face {
+    font-family: Roboto Slab Bold;
+    src: url(/fonts/static/RobotoSlab-Bold.ttf);
+    font-family: Roboto Slab Light;
+    src: url(/fonts/static/RobotoSlab-Light.ttf)
+}
+
+.mn {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-areas: 
+    "hdr hdr hdr hdr hdr hdr"
+    "col1 col1 col2 col2 col3 col3"
+    "r2col1 r2col1 r2col2 r2col2 r2col3 r2col3"
+    "f2 f2 f2 f2 f2 f2";
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem;
+    grid-template-rows: 5rem 40rem 15rem 5rem;
+    justify-content: space-evenly;
+}
+
+.col1 {
+    display: grid;
+    grid-area: col1;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-radius: 1px;
+    border-color: rgba(187, 34, 71, 1);
+}
+
+.col2 {
+    grid-area: col2;
+    display: grid;
+}
+
+.col3 {
+    grid-area: col3;
+    display: grid;
+}
+
+.r2col1 {
+    grid-area: r2col1;
+    display: grid;
+    border-style: solid;
+    border-color: rgba(187, 34, 71, 1);
+}
+
+.r2col2 {
+    grid-area: r2col2;
+    display: grid;
+}
+
+.r2col3 {
+    grid-area: r2col3;
+    display: grid;
+    background-color: rgba(236, 97, 91, 1);
+    width: 25vw;
+    
+}
+
+.l {
+    font-family: Roboto Slab Bold;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+width: 365px;
+height: 36px;
+color: rgba(0, 0, 0, 1);
+font-weight: 700;
+display: grid;
+margin-left: 1.5rem;
+}
+
+.lw {
+    font-family: Roboto Slab Bold;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+width: 365px;
+height: 36px;
+color: white;
+font-weight: 700;
+display: grid;
+margin-top: 2rem;
+margin-left: 0.5rem;
+}
+
+.def {
+    font-family: Roboto Slab Thin;
+font-size: 20px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+
+.sbscrb {
+    background-image: url(/images/subscribe.svg);
+    width: 135px;
+height: 38px;
+border-radius: 100px;
+border-color: rgba(236, 97, 91, 1);
+display: grid;
+margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+.prtn {
+    grid-area: hdr;
+    display: grid;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+    color:rgba(0, 0, 0, 1);
+    letter-spacing: 0.1rem;
+    font-family: Roboto Slab Bold;
+}
+
+.f2 {
+    grid-template-areas: "o w de hel";
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    grid-row: 1rem;
+    grid-area: f2;
+    display: grid;
+    margin-left: 3.5rem;
+}
+
+.o, .w, .de, .hel {
+    font-family: Roboto Slab Thin;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: black;
+    margin-right: 7rem;
+    width: 85px;
+height: 32px;
+display: inline;
+}
+
+.w {
+    display: inline;
+}
+
+.input-mail {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 23vw;
+    height: 5vh;
+    display: grid;
 }
