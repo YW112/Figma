@@ -1,12 +1,12 @@
 @font-face {
     font-family: Roboto Slab Bold;
-    src: url(/fonts/static/RobotoSlab-Bold.ttf);
+    src: url(/Figma/fonts/static/RobotoSlab-Bold.ttf);
     font-family: Roboto Slab Light;
-    src: url(/fonts/static/RobotoSlab-Light.ttf)
+    src: url(/Figma/fonts/static/RobotoSlab-Light.ttf)
 }
 
 header {
-    background-image: url(/images/browser.svg);
+    background-image: url(/Figma/images/browser.svg);
     width: 80rem;
     height: 2rem;
     top: 12px;
@@ -22,7 +22,7 @@ header {
 }
 
 .header1 {
-    background-image: url(/images/browser.svg);
+    background-image: url(/Figma/images/browser.svg);
     width: 80rem;
     height: 2rem;
     top: 12px;
@@ -69,7 +69,7 @@ header {
 }
 
 .cart {
-    background-image: url(/images/button-cart.svg);
+    background-image: url(/Figma/images/button-cart.svg);
     width: 115px;
     height: 38px;
     border-radius: 100px;
@@ -80,7 +80,7 @@ header {
 }
 
 .cart1 {
-    background-image: url(/images/button-cart.svg);
+    background-image: url(/Figma/images/button-cart.svg);
     width: 115px;
     height: 38px;
     border-radius: 100px;
@@ -147,7 +147,7 @@ text-align: left;
 }
 
 .buy {
-    background-image: url(/images/button-buy.svg);
+    background-image: url(/Figma/images/button-buy.png);
     width: 270px;
     height: 84px;
     margin-top: 3rem;
@@ -195,9 +195,9 @@ text-align: left;
 
 @font-face {
     font-family: Roboto Slab Bold;
-    src: url(/fonts/static/RobotoSlab-Bold.ttf);
+    src: url(/Figma/fonts/static/RobotoSlab-Bold.ttf);
     font-family: Roboto Slab Light;
-    src: url(/fonts/static/RobotoSlab-Light.ttf)
+    src: url(/Figma/fonts/static/RobotoSlab-Light.ttf)
 }
 
 .mn {
@@ -293,7 +293,7 @@ padding-right: 0.5rem;
 }
 
 .sbscrb {
-    background-image: url(/images/subscribe.svg);
+    background-image: url(/Figma/images/subscribe.svg);
     width: 135px;
 height: 38px;
 border-radius: 100px;
